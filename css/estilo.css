@@ -10,3 +10,9 @@
     flex-wrap: wrap;
     background-color: black;
 }
+
+.cabecalho img{
+    width: 70%;
+    max-width: 30%;
+    display: block;
+}
