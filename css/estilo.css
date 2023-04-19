@@ -7,3 +7,17 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.7%;
+}
+.tit-sec{
+    font-size: 4rem;
+}
+
+.conteudo{
+    font-size: 2rem;
+}
+
+.conteudo > div {
+    font-size: 2rem;
+}
