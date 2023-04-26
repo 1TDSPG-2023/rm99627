@@ -52,9 +52,9 @@
             <a href="#"><img src="./img/social-2.png" alt="Logo"></a>
             <a href="#"><img src="./img/social-3.png" alt="Logo"></a>
         </nav>
-
-        <div>
-            <form action="index.com" method="get" onsubmit="return false">
+        <h2>Login</h2>
+        <div class="formulario">
+            <!-- <form action="index.com" method="get" onsubmit="return false">
                 <fieldset>
                     <legend>Contato</legend>
                     <div>
@@ -69,7 +69,30 @@
                         </div>
                     </div>
                 </fieldset>
+            </form> -->
+
+            <form action="./info.html" method="get">
+                <fieldset> 
+                    <legend>Login</legend> 
+                    <div> 
+                        <label for="idUser">Usuário</label> 
+                        <input type="text" name="txtUser" id="idUser" placeholder="Usuário"> 
+                    </div> 
+                    <div> 
+                        <label for="idPass">Senha</label> 
+                        <input type="password" name="txtPass" id="idPass" placeholder="Senha"> 
+                    </div> 
+                    <div> 
+                        <label for="idGravaDados">Gravar Dados</label> 
+                        <input type="checkbox" name="chkDta" id="idGravaDados" value="ok" placeholder="Usuário"> 
+                    </div> 
+                    <div> 
+                        <button type="submit" value="Login">Login</button> 
+                    </div> 
+                </fieldset> 
             </form>
+            
+
         </div>
     </footer>
 </body>
