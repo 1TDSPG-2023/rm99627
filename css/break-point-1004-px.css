@@ -6,7 +6,7 @@
 
     .cabecalho nav{
         flex-wrap: nowrap;
-    }
+    } 
 
     .cabecalho nav a{
         font-size: 3em;
