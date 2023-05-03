@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Flex</title>
+
     <link rel="stylesheet" href="./css/estilo.css">
+    
+    <script src="./js/script.js" defer></script>
+
 </head>
 <body>
     <header class="cabecalho">
@@ -16,10 +20,12 @@
             <a href="#">Item-3</a>
         </nav>
     </header>
-    <h2 class="tit-sec">Seção de Fotos</h2>
+    <h2 class="tit-sec" id="tit-sec">Seção de Fotos</h2>
 
     <!-- <button onclick="alert(document.querySelectorAll('h2'))">Bem Vindo</button> -->
-    <script>
+    <button id="meu-btn"> <span>CLICK</span></button>
+
+    <!-- <script>
         var nr1 =3;
         var nr2=2;
 
@@ -42,15 +48,7 @@
             var nome1 = "Renata";
         }
         console.log(nome1)
-
-        
-
-
-
-
-
-
-    </script>
+    </script> -->
 
     <section class="conteudo">
         <div>
@@ -80,11 +78,11 @@
     </section>
 
     <footer class="rodape">
-        <h2>Fale Conosco</h2>
+        <h2 class="h2-rodape">Fale Conosco</h2>
         <nav>
-            <a href="#"><img src="./img/social-1.png" alt="Logo"></a>
-            <a href="#"><img src="./img/social-2.png" alt="Logo"></a>
-            <a href="#"><img src="./img/social-3.png" alt="Logo"></a>
+            <a href="https://www.github.com" target="_blank"><img src="./img/social-1.png" alt="Logo"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./img/social-2.png" alt="Logo"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="./img/social-3.png" alt="Logo"></a>
         </nav>
         <h2>Login</h2>
         <div class="formulario">
@@ -125,7 +123,6 @@
                     </div> 
                 </fieldset> 
             </form>
-            
 
         </div>
     </footer>
