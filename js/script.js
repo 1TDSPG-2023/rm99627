@@ -90,3 +90,22 @@ frutas.forEach( (fruta)=>{
     console.log(`Olha ele: ${fruta}`);
 } );
 
+let nr1 = [1,2,3,4,5];
+let nr2 = [6,7,8,9,10];
+console.log(`ARRAY 1: ${nr1}`);
+console.log(`ARRAY 2: ${nr2}`);
+//Concatenando arrays
+let nr3 = [nr1,nr2];
+console.log(`NOVO ARRAY: ${nr3}`);
+//Percorrendo o novo array com forEach
+nr3.forEach((nr)=>{
+    console.log(`ITEM DO NOVO ARRAY: ${nr}`);
+});
+
+//Concatenando o array com o operador SPREAD( ... )
+nr3 = [...nr1,...nr2];
+console.log(`NOVO ARRAY COM SPREAD: ${nr3}`);
+//Percorrendo o novo array com forEach
+nr3.forEach((nr)=>{
+    console.log(`ITEM DO NOVO ARRAY COM SPREAD: ${nr}`);
+});
