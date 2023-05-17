@@ -61,6 +61,10 @@ tr:hover{
 background-color: #d6eeee;
 }
 
-.fa-eye{
+.fa-eye,.fa-eye-slash{
 cursor: pointer;
+}
+
+div {
+    user-select: none;
 }
